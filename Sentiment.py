@@ -1,4 +1,4 @@
-# To check whether Data can be fetched or not
+# To check whether Data can be fetched or not through Twitter API
 
 
 import re
@@ -6,10 +6,10 @@ import tweepy
 from tweepy import OAuthHandler
 import csv
 
-consumer_key = 'kUOXj04AsZSehVlEbfcBu5Sdd'
-consumer_secret = 'N8P5RENGsEBSsMnjZACcUjd8PHHvehq1UmMslnoj2N3t9Eg8KK'
-access_token = '1108590279400001537-45wvua5g6QQPWQP8caf10RwUiAcDW7'
-access_secret = 'q6dVXr3DRu5OoT1YOiT1iQOnHow2OJ4T6n2lGrYoEtWR7'
+consumer_key = 'xxxxxxxxxxxxxxxxxxxxxxx'
+consumer_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' #Authentication credential from twitter API
+access_token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+access_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
